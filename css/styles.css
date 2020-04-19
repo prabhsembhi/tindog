@@ -28,8 +28,14 @@ p{
     color: #8f8f8f;
 }
 
+/*************** refractor ******************/
+/* headers */
 
+/* padding */
 
+/* watch the refrator section from lesson section 7 of angela wu */
+
+/* align everting according to the section layout in thr index.html */
 
 /******************CLASS selector*********************/
 
@@ -76,6 +82,9 @@ p{
     margin-bottom: 1rem;
 }
 .fas:hover{
+    color: #ff4c68;
+}
+.fab:hover{
     color: #ff4c68;
 }
 
@@ -133,4 +142,47 @@ p{
    background-color: #fff;
    position: relative;
    
+}
+
+ /* Call to Action  */
+
+ #cta{
+     background-color: #ff4c68;
+     text-align: center;
+     padding: 7% 15%;
+
+    
+ }
+
+ .monsarat-black{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+ }
+
+
+ /* Footer */
+
+ #footer{
+     text-align: center;
+     background-color: #fff;
+     padding: 7% 15% ;
+ }
+
+ .fab-padding{
+     padding: 2%;
+ }
+
+
+/* media query */
+
+@media(max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .phone-img{
+        transform: rotate(0);
+        position: static;
+    }
 }
