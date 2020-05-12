@@ -1,4 +1,7 @@
 /******************TAG selector*********************/
+html {
+  scroll-behavior: smooth;
+}
 body{
     font-family: "Montserrat";
 }
